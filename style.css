@@ -1,0 +1,65 @@
+html {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 22px;
+}
+
+* {
+    color: rgb(105, 18, 34);
+    ;
+}
+
+header {
+    background-color: rgb(187, 157, 162);
+    padding: 30px;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #9c0f5d;
+}
+
+a:not(:last-child) {
+    margin-right: 50px;
+}
+
+body {
+    background-color: rgb(248, 239, 239);
+    color: rgb(173, 119, 94);
+}
+
+h1 {
+    border-style: solid;
+    border-color: rgb(173, 119, 94);
+    border-width: 1px;
+    font-size: 2rem;
+}
+
+h2,
+h3 {
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+
+.opening {
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.transform {
+    text-transform: capitalize;
+}
+
+footer {
+    background-color: rgb(187, 157, 162);
+    padding: 30px;
+}
